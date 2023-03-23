@@ -7,12 +7,7 @@ public class Main {
         Scanner inputUsuario = new Scanner(System.in);
         Integer opcion;
 
-        System.out.println("Bienvenidos al sistema de cálculo de área!");
-        System.out.println("Están disponibles las siguientes opciones para calcular:");
-        System.out.println("Opción 1 - Calular el área del Cuadrado:");
-        System.out.println("Opción 2 - Calular el área del Triangulo:");
-        System.out.println("Opción 3 - Calular el área del Círculo:");
-        System.out.println("Opción 0 - Salir");
+        Menu();
 
         do {
             System.out.println("Ingrese una opción:");
@@ -53,6 +48,15 @@ public class Main {
             }
 
         } while (opcion != 0);
+
+        public static Menu(){
+            System.out.println("Bienvenidos al sistema de cálculo de área!");
+            System.out.println("Están disponibles las siguientes opciones para calcular:");
+            System.out.println("Opción 1 - Calular el área del Cuadrado:");
+            System.out.println("Opción 2 - Calular el área del Triangulo:");
+            System.out.println("Opción 3 - Calular el área del Círculo:");
+            System.out.println("Opción 0 - Salir");
+        }
     }
 
     public void pruebaMetodo1(String[] args) {
