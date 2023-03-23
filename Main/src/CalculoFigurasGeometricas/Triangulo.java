@@ -1,10 +1,10 @@
 package CalculoFigurasGeometricas;
 
-public class Rectangulo {
+public class Triangulo {
 
     public double resultado;
 
-    public double areaRectangulo(double base, double altura){
+    public double areaTriangulo(double base, double altura){
 
         resultado=(base*altura)/2;
         return resultado;

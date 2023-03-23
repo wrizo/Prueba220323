@@ -12,22 +12,39 @@ public class Main {
         System.out.println("Opción 1 - Calular el área del Cuadrado:");
         System.out.println("Opción 2 - Calular el área del Triangulo:");
         System.out.println("Opción 3 - Calular el área del Círculo:");
-        System.out.println("Opción 4 - Calular el área del Círculo:");
 
         do {
             System.out.println("Ingrese una opción:");
             opcion = Integer.parseInt(inputUsuario.nextLine());
             Scanner valorInput = new Scanner(System.in);
-            Double valor;
+            Double valor, base;
 
             switch (opcion) {
-                case 1:
-                    System.out.println("Ha seleccionado calcular un cuadrado la fórmula es (lxl) ");
-                    System.out.println("Ingrese el valor del Lado ");
-                    valor = Integer.parseInt(valorInput.nextLine());
+                case 0:
+                    System.out.println("Hasta Luego, gracias por usar el sistema");
                     break;
-
-
+                case 1:
+                    System.out.println("Ha seleccionado calcular el área del , la fórmula es (lxl) ");
+                    System.out.println("Ingrese el valor del Lado:");
+                    valor = Double.parseDouble(valorInput.nextLine());
+                    System.out.println("el valor del lado es:" + (valor * valor));
+                    break;
+                case 2:
+                    System.out.println("Ha seleccionado calcular el área del Triángulo, la fórmula es (bxa)/2 ");
+                    System.out.println("Ingrese el valor de la base:");
+                    base = Double.parseDouble(valorInput.nextLine());
+                    System.out.println("Ingrese el valor de la altura:");
+                    valor = Double.parseDouble(valorInput.nextLine());
+                    Triangulo triangulo = new Triangulo();
+                    System.out.println("el valor del lado es:" + triangulo.areaTriangulo(base, valor));
+                    break;
+                case 3:
+                    System.out.println("Ha seleccionado calcular el área del círculo, la fórmula es pi*r2 ");
+                    System.out.println("Ingrese el valor del Lado:");
+                    valor = Double.parseDouble(valorInput.nextLine());
+                    Circulo circulo = new Circulo();
+                    System.out.println("el valor del lado es:" + circulo.CalCularArea(valor));
+                    break;
             }
 
         } while (opcion != 0);
