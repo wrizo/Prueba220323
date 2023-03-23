@@ -8,4 +8,10 @@ public class Circulo {
         return area;
     }
 
+    public double CalCularOtraArea(double radio){
+        double area;
+        area = Math.PI *(radio*radio);
+        return area;
+    }
+
 }

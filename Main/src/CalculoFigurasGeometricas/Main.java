@@ -43,6 +43,7 @@ public class Main {
                     valor = Double.parseDouble(valorInput.nextLine());
                     Circulo circulo = new Circulo();
                     System.out.println("el valor del área del Círculo es:" + circulo.CalCularArea(valor));
+                    System.out.println("el valor del área del Círculo es:" + circulo.CalCularOtraArea(valor));
                     break;
             }
 
