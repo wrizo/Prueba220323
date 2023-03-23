@@ -55,4 +55,35 @@ public class Main {
             System.out.println("Opción 0 - Salir");
         }
     }
+
+    public void pruebaMetodo1(String[] args) {
+        System.out.println("Modificar esta linea, este metodo");
+
+
+
+
+
+
+
+
+
+
+    }
+
+
+    public void pruebaMetodo2(String[] args) {
+        System.out.println("Modificar esta linea, este metodo");
+
+
+
+
+
+
+
+
+
+
+    }
+
+
 }
