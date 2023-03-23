@@ -29,7 +29,8 @@ public class Main {
                     System.out.println("Ingrese el valor del Lado:");
                     valor = Double.parseDouble(valorInput.nextLine());
                     cuadrado cuadrado = new cuadrado();
-                    System.out.println("el valor del área del Cuadrado es:" + cuadrado.calcular_area_cuadrado(valor));
+                    System.out.println("el valor del área del Cuadrado es:" + cuadrado.calcularAreaCuadrado(valor));
+                    System.out.println("el valor del área del Cuadrado con otro metodo es:" + cuadrado.calcularOtraAreaCuadrado(valor));
                     break;
                 case 2:
                     System.out.println("Ha seleccionado calcular el área del Triángulo, la fórmula es (bxa)/2 ");
