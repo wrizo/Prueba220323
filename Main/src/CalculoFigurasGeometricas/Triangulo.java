@@ -9,4 +9,10 @@ public class Triangulo {
         resultado=(base*altura)/2;
         return resultado;
     }
+
+    public double areaOtroTriangulo(double base, double altura){
+
+        resultado=(base*altura)/2;
+        return resultado;
+    }
 }

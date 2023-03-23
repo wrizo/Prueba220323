@@ -40,6 +40,7 @@ public class Main {
                     valor = Double.parseDouble(valorInput.nextLine());
                     Triangulo triangulo = new Triangulo();
                     System.out.println("el valor del área del Triángulo es:" + triangulo.areaTriangulo(base, valor));
+                    System.out.println("el valor del área del Triángulo es:" + triangulo.areaOtroTriangulo(base, valor));
                     break;
                 case 3:
                     System.out.println("Ha seleccionado calcular el área del Círculo, la fórmula es Pi*r^2 ");
