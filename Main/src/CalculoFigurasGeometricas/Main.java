@@ -52,4 +52,35 @@ public class Main {
 
         } while (opcion != 0);
     }
+
+    public void pruebaMetodo1(String[] args) {
+        System.out.println("Modificar esta linea, este metodo");
+
+
+
+
+
+
+
+
+
+
+    }
+
+
+    public void pruebaMetodo2(String[] args) {
+        System.out.println("Modificar esta linea, este metodo");
+
+
+
+
+
+
+
+
+
+
+    }
+
+
 }
