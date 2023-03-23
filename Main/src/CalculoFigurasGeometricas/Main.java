@@ -60,33 +60,11 @@ public class Main {
     }
 
     public void pruebaMetodo1(String[] args) {
-        System.out.println("Modificar esta linea, este metodo");
-
-
-
-
-
-
-
-
-
-
+        System.out.println("Modificar esta linea, este metodo, bueno bueno bueno");
     }
 
 
     public void pruebaMetodo2(String[] args) {
-        System.out.println("Modificar esta linea, este metodo");
-
-
-
-
-
-
-
-
-
-
+        System.out.println("Modificar esta linea, este metodo, bueno bueno bueno");
     }
-
-
 }
