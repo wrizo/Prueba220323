@@ -1,8 +1,13 @@
 package CalculoFigurasGeometricas;
 
 public class cuadrado {
-    public double calcular_area_cuadrado(double lado){
+    public double calcularAreaCuadrado(double lado){
          double area = lado * lado;
          return area;
+    }
+
+    public double calcularOtraAreaCuadrado(double lado){
+        double area = lado * lado;
+        return area;
     }
 }
